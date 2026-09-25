@@ -42,8 +42,7 @@
                 android:background="@drawable/login_center_box"
                 android:layout_marginTop="40dp"
                 android:padding="8dp"
-                android:hint="Username"
-                android:drawableLeft=""/>
+                android:hint="Username" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>
