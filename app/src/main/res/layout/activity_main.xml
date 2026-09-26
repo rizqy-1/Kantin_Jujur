@@ -23,7 +23,7 @@
             android:layout_gravity="center_horizontal"
             android:background="@drawable/login_center_box"
             android:orientation="vertical"
-            android:padding="24dp">
+            android:padding="30dp">
 
             <TextView
                 android:id="@+id/loginText"
@@ -36,14 +36,38 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/username"
+                android:id="@+id/usernameText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/login_center_box"
                 android:drawableLeft="@drawable/baseline_person_24"
                 android:hint="Username"
-                android:padding="8dp" />
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"/>
+
+            <EditText
+                android:id="@+id/passwordText"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login_center_box"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:hint="Password"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginButton"
+                android:text="Login"
+                android:textStyle="bold"
+                android:backgroundTint="@color/cyan"
+                android:layout_marginTop="40dp"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>
